@@ -6,8 +6,6 @@ Keep track of when applications are posted.
   * [For Linux](#for-linux)
   * [For MacOS](#for-macos)
   * [After Installing Initial Requirements](#after-installing-initial-requirements)
-  * [Set Environment Variables](#set-environment-variables)
-* [How to Use A Project](#how-to-use-a-project)
 
 ## Setup 
 ### For Linux
