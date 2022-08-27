@@ -9,7 +9,9 @@ config.login(driver)
 
 wait = WebDriverWait(driver, 30)
 
-driver.get("https://www.instagram.com/techplusuw/")
+club_profile_name = "techplusuw"
+
+driver.get("https://www.instagram.com/techplusuw/" + club_profile_name)
 
 
 def time_difference(past_date):
