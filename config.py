@@ -14,9 +14,12 @@ load_dotenv()
 
 
 def setup():
+    from selenium.webdriver.chrome.options import Options
+    options = Options()
+    options.headless = True
     service = ChromeService(executable_path=ChromeDriverManager().install())
     try:
-        driver = webdriver.Chrome(service=service)
+        driver = webdriver.Chrome(service=service, options=options)
     except WebDriverException:
         assert False, "Check if Google Chrome is installed"
 
