@@ -20,6 +20,7 @@ def time_difference(past_date):
 
     return difference.days
 
+
 try:
     wait.until(ExpectedCondition.element_to_be_clickable((By.CLASS_NAME, "_aagw")))
     post = driver.find_element(By.CLASS_NAME, "_aagw")
@@ -58,6 +59,10 @@ while True:
     else:
         break
 
-print(info_lst)
+num = 0
+while num < len(info_lst):
+    print(info_lst[num])
+    print("\n\n\n")
+    num = num + 1
 
 driver.quit()
