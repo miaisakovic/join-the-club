@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
@@ -14,7 +15,6 @@ load_dotenv()
 
 
 def setup():
-    from selenium.webdriver.chrome.options import Options
     options = Options()
     options.headless = True
     service = ChromeService(executable_path=ChromeDriverManager().install())
