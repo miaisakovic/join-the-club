@@ -5,11 +5,11 @@ from PIL import ImageTk, Image
 root = Tk()
 root.title ("LOGIN")
 
-login_page = ImageTk.PhotoImage(Image.open("login.png"))
+login_page = ImageTk.PhotoImage(Image.open("images/login.png"))
 login = Label(image = login_page)
 login.pack()
 
-loginButton_image = ImageTk.PhotoImage(Image.open ("loginButton.png"), Image.ANTIALIAS)
+loginButton_image = ImageTk.PhotoImage(Image.open ("images/login_button.png"), Image.ANTIALIAS)
 
 loginButton = Button(root, image = loginButton_image, borderwidth=0, height = 67, width = 447)
 loginButton.place(x=500, y=780)
