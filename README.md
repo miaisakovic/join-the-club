@@ -61,7 +61,7 @@ Assign your Instagram password to this variable.
 **INSTAGRAM_CLUB_USERNAME**\
 Assign a club's Instagram username to this variable. 
 
-## How to Use A Project
+## How to Use This Project
 <img align="right" width="275" src="https://github.com/miaisakovic/technova/blob/main/images/icon.png">
 
 Each time you would like to recieve information on a club's application deadlines, run the following command:
