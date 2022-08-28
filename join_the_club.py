@@ -1,7 +1,6 @@
-from operator import truediv
-from tkinter import *
 from PIL import ImageTk
 from PIL import Image as Image2
+from tkinter import *
 
 root = Tk()
 root.title ("JOIN THE CLUB!")
