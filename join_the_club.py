@@ -54,7 +54,7 @@ def next_page():
     current_background = Label(image = backgrounds[counter], width=750, height=500)
     current_background.place(x=0, y=0)
 
-    # Widgets for the login page
+    # Widgets for the Login page
     if counter == 1:
         current_button = Button(root, image = buttons[counter], borderwidth=0, height=35, width=150, command=next_page)
         current_button.pack(side=BOTTOM, padx=200, pady=16)
@@ -71,7 +71,7 @@ def next_page():
         username.insert(0, "Instagram Username")
         username.pack(side=BOTTOM, padx=200, pady=15)
 
-    # Widgets for the captions page
+    # Widgets for the Captions page
     if counter == 2:
         current_button = Button(root, image = buttons[counter], borderwidth=0, height=35, width=185, command=next_page)
         current_button.pack(side=BOTTOM, anchor="e", padx=25, pady=25)
@@ -80,7 +80,7 @@ def next_page():
         password.pack_forget()
         username.pack_forget()
 
-    # Widgest for the other clubs page
+    # Widgets for the Other Clubs page
     if counter == 3:
         # Blueprint option button
         Option1 = Button(root, image = blueprint_button, height=185, width=185)
@@ -95,7 +95,7 @@ def next_page():
         Option3.place(x=500, y=145)
 
 
-# Display Welcome Page
+# Display Welcome page
 current_background = Label(image = backgrounds[counter], width=750, height=500)
 current_background.place(x=0, y=0)
 
