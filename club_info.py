@@ -1,17 +1,21 @@
 import config
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import selenium.webdriver.support.expected_conditions as ExpectedCondition
+
+load_dotenv()
 
 driver = config.setup()
 config.login(driver)
 
 wait = WebDriverWait(driver, 30)
 
-club_profile_name = "techplusuw"
+club_username = os.getenv("INSTAGRAM__CLUB_USERNAME")
 
-driver.get("https://www.instagram.com/techplusuw/" + club_profile_name)
+driver.get("https://www.instagram.com/" + club_username)
 
 
 def time_difference(past_date):
@@ -48,7 +52,7 @@ while True:
 
     # If the date of the post was less than two months ago
     #   and the caption mentions application
-    if ("application" in post_caption) and (diff < 60):
+    if ("application" in post_caption.lower()) and (diff < 60):
         info_lst.append(post_caption)
 
     if (diff < 60):
