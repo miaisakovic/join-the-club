@@ -18,6 +18,11 @@ If Python has not been previously installed, run the following:
 $ sudo apt install python3.9
 $ python3.9 --version
 ```
+If pip has not been previously installed, run the following:
+```
+$ sudo apt-get install python3-pip 
+$ pip3 --version
+```
 
 ### For MacOS
 If Homebrew has not been previously installed, follow the instructions listed [here](https://brew.sh/).
@@ -26,6 +31,11 @@ If Python has not been previously installed, run the following:
 ```
 $ brew install python@3.9
 $ python3.9 --version
+```
+If pip has not been previously installed, run the following:
+```
+$ python3.9 -m ensurepip --upgrade
+$ pip3 --version
 ```
 
 ### After Installing Initial Requirements
@@ -39,13 +49,13 @@ When asked to enter credentials, input your username and personal access token.
 
 Install the required dependencies included in requirements.txt:
 ```
-$ pip3.9 install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 ### Set Environment Variables
 Create a copy of .env.template named .env:
 ```
-$ cd selenium-projects
+$ cd technova
 $ cp .env.template .env
 ``` 
 Open the newly created file and fill in the variables:
