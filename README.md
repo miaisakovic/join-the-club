@@ -74,7 +74,7 @@ Assign your Instagram password to this variable.
 Assign a club's Instagram username to this variable. 
 
 ## How to Use This Project
-<img align="right" width="350" src="https://github.com/miaisakovic/join-the-club/blob/main/images/join_the_club.gif"/>
+<img align="right" width="400" src="https://github.com/miaisakovic/join-the-club/blob/main/images/join_the_club.gif"/>
 
 Each time you would like to recieve information on a club's application deadlines, run the following command:
 ```
