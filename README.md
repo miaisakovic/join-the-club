@@ -43,7 +43,7 @@ If Google Chrome has not been installed on your local machine, download the Chro
 
 Clone this repository:
 ```
-$ git clone <technova URL>
+$ git clone https://github.com/miaisakovic/join-the-club.git
 ``` 
 When asked to enter credentials, input your username and personal access token.
 
@@ -55,7 +55,7 @@ $ pip3 install -r requirements.txt
 ### Set Environment Variables
 Create a copy of .env.template named .env:
 ```
-$ cd technova
+$ cd join-the-club
 $ cp .env.template .env
 ``` 
 Open the newly created file and fill in the variables:
@@ -74,7 +74,7 @@ Assign your Instagram password to this variable.
 Assign a club's Instagram username to this variable. 
 
 ## How to Use This Project
-<img align="right" width="275" src="https://github.com/miaisakovic/technova/blob/main/images/icon.png">
+<img align="right" width="350" src="https://github.com/miaisakovic/join-the-club/blob/main/images/join_the_club.gif"/>
 
 Each time you would like to recieve information on a club's application deadlines, run the following command:
 ```
