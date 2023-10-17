@@ -1,5 +1,5 @@
-# TechNova '22: Join the Club!
-Join the Club! is a web application that allows busy university students to keep track of club application deadlines. By simply inputting your Instagram account credentials and the Instagram username of the club you would like to join, this web app will provide you with crucial details about when to apply.
+# Join the Club!
+Join the Club! is a desktop application that informs university students about when to apply to clubs. You will be provided with information on a club's application deadlines by simply inputting your Instagram account credentials and the club's username.
 
 For more information, visit: https://devpost.com/software/join-the-club
 
