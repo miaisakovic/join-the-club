@@ -57,9 +57,9 @@ def login(driver):
     try:
         wait.until(ExpectedCondition.element_to_be_clickable((
                                                         By.XPATH,
-                                                        "//*[text()='Log In']"
+                                                        "//*[text()='Log in']"
                                                       )))
-        login = driver.find_element(By.XPATH, "//*[text()='Log In']")
+        login = driver.find_element(By.XPATH, "//*[text()='Log in']")
         login.click()
     except Exception:
         assert False, "Can't submit credentials"

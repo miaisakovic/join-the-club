@@ -1,4 +1,4 @@
 Pillow==10.0.1
 python-dotenv==0.20.0
 selenium==4.4.3
-webdriver_manager==3.5.2
+webdriver_manager==4.0.1
